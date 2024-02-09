@@ -1,0 +1,191 @@
+* {
+  font-family: "Cairo", sans-serif;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+  font-family: "Lemonada", cursive;
+  font-family: "Merriweather", serif;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  color: white;
+}
+
+:root {
+    --firstcolor: rgb(53, 52, 52); /*#08081E*/
+    --secondcolor: #140e1a;
+  }
+
+body {
+  background-color: var(--firstcolor) ;
+  background-position: center ;
+  background-size: cover;
+  height: 100vh;
+}
+
+header {
+  background-color: var(--secondcolor); /*  rgba(128, 128, 128, 0.123)*/
+  width: 100%;
+  height: 100px;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  padding-left: 100px;
+  padding-right: 30px;
+  list-style: none;
+}
+
+
+header ul li a {
+  color: white;
+  font-weight: bold;
+  font-size: 23px;
+  text-decoration: none;
+}
+
+header ul li a:hover {
+  color: orange;
+  transition: 0.4s;
+}
+
+header ul li a:focus {
+  color: orange;
+}
+
+.cart i {
+  font-size: 30px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.cart p {
+  background-color: red;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  margin-top: -60px;
+  margin-left: 40px;
+}
+
+
+/* pay  section */
+
+.all-payment{
+  display: flex;
+  margin-top: 10px;
+}
+
+.payment .title h1,h3{
+  font-weight: bold;
+  margin-left: 120px;
+  padding-top: 20px;
+}
+.payment .title h1{
+  font-size: 35px;
+  margin-top: 20px;
+}
+
+.payment .payment-icon img{
+  width: 30%;  
+  margin-left: 65%;
+  margin-top: -40px;
+}
+
+.user-info{
+   margin-left: 125px;
+}
+
+ h3{
+  margin-left:auto;
+  margin-bottom: 30px;
+  margin-top: -10px;
+}
+
+ input{
+  display: block;
+  width: 500px;
+  height: 38px;
+  border-radius: 5px;
+  padding-left: 5px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+ .inp-info{
+  display: flex;
+  margin-right: 10px;
+}
+
+ .inp-info input{
+  width: 245px;
+  margin-left: 5px;
+}
+
+ .buld{
+margin-left: 220px;
+}
+ .year{
+margin-left: 160px;
+}
+ .city{
+margin-left: 10px;
+}
+
+
+ label{
+  margin-top: -50px;
+}
+
+.credit-info{
+  margin-left: 290px;
+}
+
+span{
+ position: relative;
+ right: 2px;
+}
+
+span::after{
+  content: '';
+  position: absolute;
+  border: 1px solid orange;
+  border-radius: 50%;
+  padding: 10px;
+  right: 0.1px;
+}
+
+.links{
+  margin-left: 1065px;
+  display: flex;
+}
+
+.links button{
+  width: 200px;
+  height: 40px;
+  background-color: orange;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  margin-top: -13px;
+  cursor: pointer;
+}
+
+.links button a{
+  text-decoration: none;
+}
+
+.links a{
+  font-size: 18px;
+  margin-right: 20px;
+  margin-top: 10px;
+}

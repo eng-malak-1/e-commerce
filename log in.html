@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PS GAMES</title>
+    <link rel="stylesheet" href="log in.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo&family=IBM+Plex+Sans+Arabic&family=Lemonada&family=Merriweather:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" href="ps icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+<body>
+    <div class="sign-up">
+        <header>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="http://127.0.0.1:5500/index.html#ps">PS GAMES</a></li>
+                <li><a href="http://127.0.0.1:5500/index.html#top"> TOP SELLING</a></li>
+                <li><a href="sign up.html">SIGN UP</a></li>
+                <li><a href="about.html">ABOUT ME</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+
+                <div class="cart">
+                    <i class="fa-solid fa-cart-shopping" style="color:#ffbb00;"></i>
+                    <p>0</p>
+                </div>
+            </ul>
+        </header>
+
+        <div class="card">
+            <h1>LOG IN</h1>
+            <form action="" method="post" name="form" onsubmit=" return validation() " >
+                <div class="inp">
+                    <input  type="email" name="user" placeholder=" EMAIL" id="user"> 
+                    <p id="error-user">pleas enter your email correctly</p>
+                    <i class="fa fa-check u_check" ></i>  
+                    <i class="fa fa-times u_times" ></i> <br>
+                </div>
+
+                <div class="inp">
+                    <input   type="number" name="number" placeholder=" NUMBER" id="num"> 
+                    <p id="error-num">number could be 11 numbers only</p>
+                    <i class="fa fa-check n_check" ></i>  
+                    <i class="fa fa-times n_times" ></i> <br>
+                </div>
+
+                <div class="inp">
+                    <input   type="text" name="password" placeholder=" PASSWORD" id="pass">
+                    <p id="error-pass">password should be at least 6 characters</p>
+                    <i class="fa fa-check p_check" ></i>  
+                    <i class="fa fa-times p_times" ></i> <br>
+                </div>
+                <button  class="btn" type="submit"><a href="#"> Log in </a></button>
+            </form>
+            <p><a href="sign up.html">Sing up</a></p>
+        </div>
+    </div>
+
+    <script src="sign up.js"></script>
+</body>
+</html>

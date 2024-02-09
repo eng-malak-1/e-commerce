@@ -1,0 +1,182 @@
+* {
+  font-family: 'Cairo', sans-serif;
+  font-family: 'IBM Plex Sans Arabic', sans-serif;
+  font-family: 'Lemonada', cursive;
+  font-family: 'Merriweather', serif;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ color: white;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+:root {
+  --firstcolor: rgb(49, 48, 48);
+  --secondcolor: rgb(36, 35, 35);
+}
+
+.sign-up {
+  background-color: var(--firstcolor);
+  background-image: linear-gradient(to top,rgba(0, 0, 0, 0.726) 50%,rgba(0, 0, 0, 0.774) 50%),url(ghost.jpeg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+header {
+  background-color: var(--secondcolor); /*  rgba(128, 128, 128, 0.123)*/
+  width: 100%;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+header ul li a {
+  font-weight: bold;
+  font-size: 23px;
+  color: white;
+}
+
+header ul li a:hover {
+  color: orange;
+  transition: 0.4s;
+}
+
+header ul li a:focus {
+  color: orange;
+}
+
+.cart i {
+  font-size: 30px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.cart p {
+  background-color: red;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  margin-top: -60px;
+  margin-left: 40px;
+}
+/* sign up card  section */
+
+
+.card {
+  padding-top: 200px;
+  text-align: center;
+  background-color: transparent;
+  backdrop-filter: blur(15px);
+  width: 400px;
+  height: 550px;
+  border-radius: 30px;
+  margin-left: 550px;
+  margin-top: 45px;
+}
+
+.card h1 {
+  margin-top: -130px;
+  color: white;
+  padding-bottom: 30px;
+}
+input {
+  margin: 25px;
+  width: 280px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding-left: 5px;
+  /* border-left: none;
+  border-right: none;
+  border-top: none; */
+  background-color: transparent;
+}
+
+.card .btn{
+    background-color: orange;
+    width: 200px;
+    height: 35px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-top: 60px;
+    cursor: pointer;
+    transition: 0.4s;
+    border-radius: 8px;
+}
+
+.card .btn a{
+    color: black;
+}
+
+.card .btn:hover{
+    transform: scale(1.1);
+  }
+
+.card p a {
+  color:  #0026ff ;
+  text-decoration: solid;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+form .inp{
+  position: relative;
+}
+
+form .fa{
+  position: absolute;
+  right: 20%;
+  top: 30px;
+  display: none;
+}
+
+form .u_check{
+  color: green;
+}
+
+
+form .u_times{
+  color: red;
+}
+
+form .p_check{
+  color: green;
+}
+
+form .p_times{
+  color: red;
+}
+
+form .n_check{
+  color: green;
+}
+
+form .n_times{
+  color: red;
+}
+
+form p{
+  color: red;
+  font-size: 13px;
+  font-weight: bold;
+  margin-right: 90px;
+  margin-top: -15px;
+  display: none;
+}
+
+#error-pass{
+  margin-left: 55px;
+}
